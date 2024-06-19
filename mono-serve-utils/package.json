@@ -1,0 +1,7 @@
+{
+  "name": "@mono/serve-utils",
+  "version": "0.0.1",
+  "description": "ServeApi公共方法",
+  "main": "index.js",
+  "type": "commonjs"
+}

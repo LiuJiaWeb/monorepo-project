@@ -1,0 +1,51 @@
+
+.DIN {
+  font-family: 'DIN';
+}
+
+.elli-1 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.elli-2 {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.elli-3 {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.click-expand {
+  position: relative;
+}
+
+.click-expand::after {
+  position: absolute;
+  content: ' ';
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -20px;
+}
+
+.click-active:active {
+  opacity: 0.8;
+}

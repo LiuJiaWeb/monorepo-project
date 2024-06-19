@@ -1,0 +1,13 @@
+{
+  "name": "serve-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./src/main.js"
+  },
+  "_moduleAliases": {
+    "~src": "./src"
+  },
+  "dependencies": {
+  }
+}

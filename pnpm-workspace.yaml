@@ -1,0 +1,15 @@
+packages:
+  # 项目目录
+  - 'mono-packages/*'
+
+  # 公共组件目录
+  - 'mono-components/**'
+
+  # 公共方法目录
+  - 'mono-utils/**'
+
+  # 公共样式目录
+  - 'mono-styles/**'
+
+  # serve-api公共方法目录
+  - 'mono-serve-utils/**'

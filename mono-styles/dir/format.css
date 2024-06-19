@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.van-icon-success {
+  line-height: 1 !important;
+}
